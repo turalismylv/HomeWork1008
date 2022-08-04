@@ -1,0 +1,33 @@
+@use './navigation';
+@use './section1';
+
+ @font-face{
+    font-family: 'Product Sans';
+    font-weight: 400;
+    src: url("../fonts/Product\ Sans\ Regular.ttf");
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Product Sans';
+    
+}
+.main-container {
+    width: 100%;
+     border: 1px solid red; 
+    // margin: 0 auto;
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
+    // padding: 0 100px;
+    color: #272042;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+
+
+
+
+

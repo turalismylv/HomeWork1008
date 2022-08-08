@@ -1,0 +1,61 @@
+.sec5 {
+
+
+    .sec5div {
+        width: 1170px;
+        height: 660px;
+        margin: 0px 375px;
+        position: relative;
+        // padding-top: 230px;
+        margin-top: 230px;
+        background-image: url(../images/BG.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 100px;
+
+
+
+        .simple {
+            width: 321px;
+            height: 98px;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 49px;
+            color: #FFFFFF;
+            position: absolute;
+            top: 210px;
+            left: 30px;
+
+        }
+
+        .download {
+            width: 464px;
+            height: 80px;
+
+            position: absolute;
+            top: 367px;
+            left: 30px;
+
+            .andr {
+                margin-right: 15px;
+            }
+        }
+
+
+        .screen {
+            
+            position: absolute;
+            left: 480px;
+            top: -50px;
+        }
+        .details {
+            
+            position: absolute;
+            left: 780px;
+            top: 5px;
+        }
+
+
+
+    }
+}

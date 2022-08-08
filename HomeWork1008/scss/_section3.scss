@@ -1,0 +1,139 @@
+.sec3 {
+    // border: 1px solid red;
+    width: 571px;
+    height: 72px;
+    margin-left: 675px;
+    margin-top: 97px;
+    text-align: center;
+
+    .servis {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #F16214;
+        margin-bottom: 6px;
+    }
+
+    .favorit {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 49px;
+        color: #000000;
+
+    }
+
+
+}
+
+.choose {
+    display: flex;
+    // justify-content: space-between;
+    margin-left: 375px;
+    margin-top: 59px;
+    margin-bottom: 200px;
+    gap: 30px;
+
+    .quality {
+        width: 370px;
+        height: 395px;
+        border: 2px solid #EEEEEE;
+        border-radius: 60px 0px;
+        text-align: center;
+
+        .qua-img {
+            width: 80px;
+            height: 80px;
+            margin-top: 70px;
+        }
+
+        .qua-h5 {
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            color: #000000;
+            margin-top: 44px;
+
+        }
+
+        .qua-p {
+            width: 330px;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 160%;
+            text-align: center;
+            color: #888888;
+            margin: 0 20px;
+            margin-top: 22px;
+        }
+
+    }
+
+    .healty {
+        width: 370px;
+        height: 395px;
+        border: 2px solid #EEEEEE;
+        border-radius: 60px 0px;
+        text-align: center;
+        .hea-img {
+            width: 80px;
+            height: 80px;
+            margin-top: 70px;
+        }
+
+        .hea-h5 {
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            color: #000000;
+            margin-top: 44px;
+
+        }
+
+        .hea-p {
+            width: 330px;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 160%;
+            text-align: center;
+            color: #888888;
+            margin: 0 20px;
+            margin-top: 22px;
+        }
+
+    }
+
+    .delivry {
+        width: 370px;
+        height: 395px;
+        border: 2px solid #EEEEEE;
+        border-radius: 60px 0px;
+        text-align: center;
+        .del-img {
+            width: 80px;
+            height: 80px;
+            margin-top: 70px;
+        }
+
+        .del-h5 {
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            color: #000000;
+            margin-top: 44px;
+
+        }
+
+        .del-p {
+            width: 330px;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 160%;
+            text-align: center;
+            color: #888888;
+            margin: 0 20px;
+            margin-top: 22px;
+        }
+
+
+    }
+}

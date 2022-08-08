@@ -1,0 +1,90 @@
+.sec2 {
+    .sect2 {
+        height: 700px;
+
+        background-image: url(../images/back2.png);
+        background-repeat: no-repeat;
+        .towork {
+
+            padding-left: 994px;
+            padding-top: 155px;
+    
+            display: flex;
+            flex-direction: column;
+    
+            
+            .how {
+                width: 527px;
+                height: 121px;
+    
+                .howp {
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #F16214;
+    
+                }
+    
+                .howh3 {
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 49px;
+                    color: #000000;
+    
+                }
+                margin-bottom: 45px;
+            }
+    
+            .lorem2 {
+                width: 570px;
+                height: 139px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: #888888;
+            }
+            
+            .button-learn {
+                margin-top: 30px;
+                background: #F16214;
+                border-radius: 54px;
+                width: 160px;
+                height: 50px;
+                position: relative;
+        
+        
+                .lear {
+                    position: absolute;
+                    width: 87px;
+                    height: 24px;
+                    left: 19px;
+                    top: 13px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                }
+        
+                .lear-img {
+                    position: absolute;
+                    width: 40px;
+                    height: 40px;
+                    left: 115px;
+                    top: 5px;
+                }
+        
+            }
+            
+            
+        }
+    }
+
+    }
+
+
+
+
+
+    

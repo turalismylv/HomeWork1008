@@ -1,33 +1,44 @@
 @use './navigation';
 @use './section1';
+@use './section2';
+@use './section3';
+@use './section4';
+@use './section5';
+@use './section6';
+@use './section7';
 
- @font-face{
+
+@font-face {
     font-family: 'Product Sans';
     font-weight: 400;
     src: url("../fonts/Product\ Sans\ Regular.ttf");
- }
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Product Sans';
-    
+
 }
+
+
 .main-container {
     width: 100%;
-     border: 1px solid red; 
-    // margin: 0 auto;
-    /* padding-left: 100px; */
-    /* padding-right: 100px; */
-    // padding: 0 100px;
+    border: 1px solid red;
+    margin: 0 auto;
+
+
     color: #272042;
-    /* border: 1px solid red; */
-    position: relative;
+    
+
+    background-color: #FFFFFF;
+    z-index: 1;
+
+    .secccc{
+        background-image: url(../images/birincii.png);
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-position-y: 0%;
+    }
 }
-
-
-
-
-
-

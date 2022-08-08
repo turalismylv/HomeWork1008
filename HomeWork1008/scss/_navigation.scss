@@ -4,14 +4,14 @@
     display: flex;
     // justify-content: space-between;
     align-items: center;
-    margin-left: 375px;
-    margin-right: 698px;
-    height: 45px;
+    
+    padding-left: 375px;
+    // padding-right: 375px;
     padding-top: 30px;
 
     .logo {
-        margin-right: 161px;
-        height: 45px;
+        padding-right: 9%;
+        
         padding-top: 5px;
     }
 
@@ -21,8 +21,8 @@
         align-items: center;
 
         .nav-button {
-            width: 80px;
-            height: 30px;
+            // width: 80px;
+            // height: 30px;
             background: #F16214;
             border: 1.5px solid #F16214;
             border-radius: 120px;
@@ -30,20 +30,24 @@
             font-size: 13px;
             line-height: 16px;
             color: #FFFFFF;
+            padding: 7px 14px;
+            text-align: center;
 
         }
 
         .navigation-items {
-            width: 449px;
+            
             display: flex;
             list-style: none;
             gap: 29px;
+            // justify-content: space-between;
             align-items: center;
             font-family: 'Product Sans';
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 19px;
+            margin-right: 25px;
         }
     }
 

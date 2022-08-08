@@ -1,12 +1,12 @@
 .sec2 {
     .sect2 {
-        height: 700px;
+        
 
         background-image: url(../images/back2.png);
         background-repeat: no-repeat;
         .towork {
 
-            padding-left: 994px;
+            padding-left: 52%;
             padding-top: 155px;
     
             display: flex;
@@ -14,8 +14,7 @@
     
             
             .how {
-                width: 527px;
-                height: 121px;
+                padding-right: 42%;
     
                 .howp {
                     font-weight: 700;
@@ -36,8 +35,7 @@
             }
     
             .lorem2 {
-                width: 570px;
-                height: 139px;
+                padding-right: 37%;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
@@ -47,6 +45,7 @@
             
             .button-learn {
                 margin-top: 30px;
+                margin-bottom: 200px;
                 background: #F16214;
                 border-radius: 54px;
                 width: 160px;

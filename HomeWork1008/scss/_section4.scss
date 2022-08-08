@@ -2,9 +2,8 @@
     .product {
 
         // border: 1px solid black;
-        width: 353px;
-        height: 72px;
-        margin-left: 784px;
+       
+        
         margin-top: 97px;
         text-align: center;
 
@@ -28,12 +27,14 @@
     }
 
     .foods {
-        margin: 0 375px;
+        padding:0 18%;
         margin-top: 59px;
-        width: 1170px;
-        height: 868px;
+        
+        // height: 868px;
         display: flex;
-        justify-content: space-between;
+        // justify-content: space-between;
+        gap: 30px;
+        
         flex-wrap: wrap;
         align-content: space-between;
         
@@ -541,7 +542,7 @@
         width: 200px;
         height: 50px;
         position: relative;
-        margin-left: 860px;
+        margin-left: 43%;
         margin-bottom: 100px;
 
 

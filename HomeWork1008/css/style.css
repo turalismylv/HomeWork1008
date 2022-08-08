@@ -1,14 +1,11 @@
 .navigation {
   display: flex;
   align-items: center;
-  margin-left: 375px;
-  margin-right: 698px;
-  height: 45px;
+  padding-left: 375px;
   padding-top: 30px;
 }
 .navigation .logo {
-  margin-right: 161px;
-  height: 45px;
+  padding-right: 9%;
   padding-top: 5px;
 }
 .navigation .nav-actions {
@@ -16,8 +13,6 @@
   align-items: center;
 }
 .navigation .nav-actions .nav-button {
-  width: 80px;
-  height: 30px;
   background: #F16214;
   border: 1.5px solid #F16214;
   border-radius: 120px;
@@ -25,9 +20,10 @@
   font-size: 13px;
   line-height: 16px;
   color: #FFFFFF;
+  padding: 7px 14px;
+  text-align: center;
 }
 .navigation .nav-actions .navigation-items {
-  width: 449px;
   display: flex;
   list-style: none;
   gap: 29px;
@@ -37,27 +33,27 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  margin-right: 25px;
 }
 
 .section1 {
-  margin-top: 141px;
-  margin-left: 374px;
+  padding-top: 141px;
+  padding-left: 375px;
+  padding-right: 375px;
   display: flex;
   flex-direction: column;
   margin-bottom: 3px;
 }
 .section1 h1 {
-  width: 488px;
-  height: 273px;
   font-weight: 700;
   font-size: 75px;
   line-height: 91px;
   color: #000000;
+  padding-right: 58%;
 }
 .section1 .lorem {
   margin-top: 15px;
-  width: 570px;
-  height: 66px;
+  padding-right: 50%;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -92,32 +88,29 @@
 }
 .section1 .sosial-media {
   margin-top: 40px;
-  width: 229px;
-  height: 40px;
   display: flex;
   gap: 23px;
 }
 .section1 .info {
-  width: 1170px;
-  height: 217px;
   margin-top: 110px;
   background: #FFFFFF;
   box-shadow: 0px 22px 52px rgba(0, 0, 0, 0.07);
   border-radius: 60px 0px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  padding-left: 10%;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .section1 .info .worktime {
-  width: 196px;
-  height: 97px;
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-right: 10%;
 }
 .section1 .info .worktime .wki {
-  margin-bottom: 16px;
-  margin-left: 78px;
+  margin-bottom: 10%;
+  margin-left: 39%;
   width: 40px;
   height: 40px;
 }
@@ -135,17 +128,17 @@
   color: #888888;
 }
 .section1 .info .location {
-  width: 400px;
-  height: 97px;
   display: flex;
   flex-direction: column;
   text-align: center;
   border-left: 2px solid #DDDDDD;
   border-right: 2px solid #DDDDDD;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .section1 .info .location .loi {
   margin-bottom: 16px;
-  margin-left: 181px;
+  margin-left: 38%;
   width: 40px;
   height: 40px;
 }
@@ -163,11 +156,11 @@
   color: #888888;
 }
 .section1 .info .tel {
-  width: 103px;
-  height: 97px;
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding-left: 13%;
+  padding-right: 10%;
 }
 .section1 .info .tel .tei {
   margin-bottom: 16px;
@@ -190,19 +183,17 @@
 }
 
 .sec2 .sect2 {
-  height: 700px;
   background-image: url(../images/back2.png);
   background-repeat: no-repeat;
 }
 .sec2 .sect2 .towork {
-  padding-left: 994px;
+  padding-left: 52%;
   padding-top: 155px;
   display: flex;
   flex-direction: column;
 }
 .sec2 .sect2 .towork .how {
-  width: 527px;
-  height: 121px;
+  padding-right: 42%;
   margin-bottom: 45px;
 }
 .sec2 .sect2 .towork .how .howp {
@@ -218,8 +209,7 @@
   color: #000000;
 }
 .sec2 .sect2 .towork .lorem2 {
-  width: 570px;
-  height: 139px;
+  padding-right: 37%;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -228,6 +218,7 @@
 }
 .sec2 .sect2 .towork .button-learn {
   margin-top: 30px;
+  margin-bottom: 200px;
   background: #F16214;
   border-radius: 54px;
   width: 160px;
@@ -255,11 +246,9 @@
 }
 
 .sec3 {
-  width: 571px;
-  height: 72px;
-  margin-left: 675px;
   margin-top: 97px;
   text-align: center;
+  margin-bottom: 59px;
 }
 .sec3 .servis {
   font-weight: 700;
@@ -277,14 +266,13 @@
 
 .choose {
   display: flex;
-  margin-left: 375px;
+  padding-left: 18%;
+  padding-right: 18%;
   margin-top: 59px;
   margin-bottom: 200px;
   gap: 30px;
 }
 .choose .quality {
-  width: 370px;
-  height: 395px;
   border: 2px solid #EEEEEE;
   border-radius: 60px 0px;
   text-align: center;
@@ -302,18 +290,15 @@
   margin-top: 44px;
 }
 .choose .quality .qua-p {
-  width: 330px;
   font-weight: 400;
   font-size: 17px;
   line-height: 160%;
   text-align: center;
   color: #888888;
-  margin: 0 20px;
+  margin: 0 26px;
   margin-top: 22px;
 }
 .choose .healty {
-  width: 370px;
-  height: 395px;
   border: 2px solid #EEEEEE;
   border-radius: 60px 0px;
   text-align: center;
@@ -331,18 +316,16 @@
   margin-top: 44px;
 }
 .choose .healty .hea-p {
-  width: 330px;
   font-weight: 400;
   font-size: 17px;
   line-height: 160%;
   text-align: center;
   color: #888888;
-  margin: 0 20px;
+  margin: 0 26px;
   margin-top: 22px;
+  margin-bottom: 72px;
 }
 .choose .delivry {
-  width: 370px;
-  height: 395px;
   border: 2px solid #EEEEEE;
   border-radius: 60px 0px;
   text-align: center;
@@ -360,20 +343,16 @@
   margin-top: 44px;
 }
 .choose .delivry .del-p {
-  width: 330px;
   font-weight: 400;
   font-size: 17px;
   line-height: 160%;
   text-align: center;
   color: #888888;
-  margin: 0 20px;
+  margin: 0 26px;
   margin-top: 22px;
 }
 
 .sec4 .product {
-  width: 353px;
-  height: 72px;
-  margin-left: 784px;
   margin-top: 97px;
   text-align: center;
 }
@@ -391,12 +370,10 @@
   color: #000000;
 }
 .sec4 .foods {
-  margin: 0 375px;
+  padding: 0 18%;
   margin-top: 59px;
-  width: 1170px;
-  height: 868px;
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
   flex-wrap: wrap;
   align-content: space-between;
 }
@@ -809,7 +786,7 @@
   width: 200px;
   height: 50px;
   position: relative;
-  margin-left: 860px;
+  margin-left: 43%;
   margin-bottom: 100px;
 }
 .sec4 .button-see .get1 {
@@ -875,173 +852,6 @@
   top: 5px;
 }
 
-.sec6 {
-  margin-bottom: 180px;
-}
-.sec6 .sec6div {
-  width: 1565px;
-  height: 644px;
-  background-image: url(../images/vegetable-food-diet-health-eating-vegetables-and-fork-2eaceb13dbe391d6ddd9e988c59d4f22.png);
-  background-repeat: no-repeat;
-  position: relative;
-  margin-top: 150px;
-}
-.sec6 .sec6div .imonial {
-  width: 409px;
-  height: 72px;
-  position: absolute;
-  top: 60px;
-  left: 785px;
-}
-.sec6 .sec6div .imonial .test {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  color: #F16214;
-  margin-bottom: 6px;
-}
-.sec6 .sec6div .imonial .happy {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 49px;
-  color: #000000;
-}
-.sec6 .sec6div .left {
-  width: 570px;
-  height: 308px;
-  position: absolute;
-  top: 250px;
-  left: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-.sec6 .sec6div .left .ceo-img {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-.sec6 .sec6div .left .ceo-name .ceo-namee {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  color: #000000;
-}
-.sec6 .sec6div .left .ceo-name .founder {
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 16px;
-  color: #888888;
-}
-.sec6 .sec6div .left .ceo-p {
-  width: 570px;
-  height: 90px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  text-align: center;
-  color: #888888;
-  margin-top: 41px;
-}
-.sec6 .sec6div .left .arrow {
-  width: 130px;
-  height: 50px;
-  margin-top: 34px;
-  display: flex;
-  justify-content: space-between;
-}
-.sec6 .sec6div .left .arrow .aleft {
-  width: 50px;
-  height: 50px;
-  border: 1.5px solid #EEEEEE;
-  border-radius: 10px;
-  background: #FFFFFF;
-  display: flex;
-  align-items: center;
-}
-.sec6 .sec6div .left .arrow .aleft .saga {
-  margin-left: 13px;
-}
-.sec6 .sec6div .left .arrow .aright {
-  width: 50px;
-  height: 50px;
-  border: 1.5px solid #EEEEEE;
-  border-radius: 10px;
-  background: #F16214;
-  display: flex;
-  align-items: center;
-}
-.sec6 .sec6div .left .arrow .aright .sola {
-  margin-left: 13px;
-}
-.sec6 .sec6div .right {
-  width: 569px;
-  height: 483px;
-  position: absolute;
-  top: -100px;
-  left: 592px;
-  background-image: url(../images/lebanese-cuisine-pita-tzatziki-falafel-shawarma-mediterranean-bdbe7ab511e36f378d7bcbee34ff1608.png);
-  margin-bottom: 78px;
-}
-
-.sec7 .sec7div {
-  width: 1170px;
-  height: 300px;
-  border: 1px solid red;
-  background-image: url(../images/bg1.png);
-  background-repeat: no-repeat;
-  margin-top: 100px;
-  margin-left: 375px;
-  margin-bottom: 100px;
-  position: relative;
-}
-.sec7 .sec7div .hambur {
-  width: 460px;
-  height: 460px;
-  position: absolute;
-  top: -100px;
-  left: 33px;
-}
-.sec7 .sec7div .hambur-write {
-  position: absolute;
-  left: 599px;
-  top: 51px;
-}
-.sec7 .sec7div .hambur-write .hambur-h4 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 49px;
-  color: #FFFFFF;
-}
-.sec7 .sec7div .hambur-write .hambur-p {
-  width: 500px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  color: #888888;
-  margin-top: 15px;
-  padding-right: 10px;
-}
-.sec7 .sec7div .hambur-write .mail {
-  width: 500px;
-  height: 60px;
-  background: #FFFFFF;
-  border-radius: 13px;
-}
-.sec7 .sec7div .hambur-write .mail .inputmail {
-  width: 500px;
-  height: 60px;
-  border-radius: 13px;
-}
-.sec7 .sec7div .hambur-write .mail .inputmail ::placeholder {
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 150%;
-  /* identical to box height, or 20px */
-  color: #CCCCCC;
-}
-
 @font-face {
   font-family: "Product Sans";
   font-weight: 400;
@@ -1057,10 +867,8 @@
 .main-container {
   width: 100%;
   border: 1px solid red;
-  margin: 0 auto;
   color: #272042;
   background-color: #FFFFFF;
-  z-index: 1;
 }
 .main-container .secccc {
   background-image: url(../images/birincii.png);

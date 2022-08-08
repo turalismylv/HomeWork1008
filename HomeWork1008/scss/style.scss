@@ -4,8 +4,8 @@
 @use './section3';
 @use './section4';
 @use './section5';
-@use './section6';
-@use './section7';
+// @use './section6';
+// @use './section7';
 
 
 @font-face {
@@ -26,14 +26,10 @@
 .main-container {
     width: 100%;
     border: 1px solid red;
-    margin: 0 auto;
-
-
+    // margin: 0 auto;
     color: #272042;
-    
-
     background-color: #FFFFFF;
-    z-index: 1;
+    
 
     .secccc{
         background-image: url(../images/birincii.png);

@@ -6,6 +6,7 @@
 @use './section5';
 @use './section6';
 @use './section7';
+@use './footer';
 
 
 @font-face {
@@ -29,12 +30,42 @@
     // margin: 0 auto;
     color: #272042;
     background-color: #FFFFFF;
-    
+    // padding-left: 5%;
 
-    .secccc{
+    .secccc {
+        width: 100%;
+        height: 100%;
         background-image: url(../images/birincii.png);
         background-repeat: no-repeat;
         background-position-x: 100%;
         background-position-y: 0%;
+        // z-index: 1;
+        // opacity: 0.35;
+        // filter: blur(3px);
+
+
     }
+}
+
+@media screen and (max-width: 1640px) {
+
+   .main-container .secccc{
+        background-image: none;
+        position: relative;
+    }
+    // .secccc ::after{
+    //     content: "";
+    //     position: absolute;
+    //     top: 0px;
+    //     left: 0px;
+    //     background-image: url(../images/birincii.png);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     width: 100%;
+    //     height: 100%;
+    //     z-index: 1;
+    //     opacity: 0.35;
+    //     filter: blur(3px);
+
+    // }
 }

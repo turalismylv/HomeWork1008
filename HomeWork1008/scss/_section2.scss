@@ -1,39 +1,44 @@
 .sec2 {
     .sect2 {
-        
+        display: flex;
+        width: 100%;
+        height: 100%;
 
-        background-image: url(../images/back2.png);
-        background-repeat: no-repeat;
+        .bckgrndd {
+            width: 100%;
+        }
+
         .towork {
 
-            padding-left: 52%;
+
             padding-top: 155px;
-    
+
             display: flex;
             flex-direction: column;
-    
-            
+
+
             .how {
                 padding-right: 42%;
-    
+
                 .howp {
                     font-weight: 700;
                     font-size: 14px;
                     line-height: 17px;
                     color: #F16214;
-    
+
                 }
-    
+
                 .howh3 {
                     font-weight: 700;
                     font-size: 40px;
                     line-height: 49px;
                     color: #000000;
-    
+
                 }
+
                 margin-bottom: 45px;
             }
-    
+
             .lorem2 {
                 padding-right: 37%;
                 font-style: normal;
@@ -42,7 +47,7 @@
                 line-height: 150%;
                 color: #888888;
             }
-            
+
             .button-learn {
                 margin-top: 30px;
                 margin-bottom: 200px;
@@ -51,8 +56,8 @@
                 width: 160px;
                 height: 50px;
                 position: relative;
-        
-        
+
+
                 .lear {
                     position: absolute;
                     width: 87px;
@@ -65,7 +70,7 @@
                     line-height: 150%;
                     color: #FFFFFF;
                 }
-        
+
                 .lear-img {
                     position: absolute;
                     width: 40px;
@@ -73,17 +78,177 @@
                     left: 115px;
                     top: 5px;
                 }
-        
+
             }
-            
-            
+
+
         }
     }
 
+}
+
+@media screen and (max-width:1530px) {
+    .sec2 {
+        .sect2 {
+            .bckgrndd {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1480px) {
+    .sec2 {
+        .sect2 {
+            .bckgrndd {
+                img {
+                    z-index: -1;
+                    opacity: .25;
+                    filter: blur(3px);
+                }
+
+                
+
+            }
+        }
+    }
+}
+@media screen and (max-width:1203px) {
+    .sec2 {
+        .sect2 {
+            .bckgrndd {
+                width: 30%;
+
+                
+            }
+
+            .towork {
+
+                text-align: center;
+
+                .button-learn {
+                    margin-left: 20%;
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width:1039px) {
+    .sec2 {
+        .sect2 {
+            .bckgrndd {
+                img {
+
+                    height: 78%
+                }
+
+                ;
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:974px) {
+    .sec2 {
+        .sect2 {
+            .bckgrndd {
+                img {
+
+                    height: 68%
+                }
+
+                ;
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:900px) {
+    .sec2 {
+        .sect2 {
+            .bckgrndd {
+                img {
+                    width: 1774%;
+                    height: 100%;
+                }
+            }
+
+            ;
+
+        }
+
+        .towork {
+            padding-left: 30%;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:900px) {
+    .sec2 {
+        .sect2 {
+
+
+            .towork {
+                .button-learn {
+                    margin-left: 13%;
+                }
+            }
+        }
     }
 
+}
 
+@media screen and (max-width:770px) {
+    .sec2 {
+        .sect2 {
+            .bckgrndd {
+                img {
+                    width: 2060%;
+                    height: 100%;
+                }
 
+                ;
 
+            }
+        }
+    }
 
-    
+}
+
+@media screen and (max-width:700px) {
+    .sec2 {
+        .sect2 {
+            .bckgrndd {
+                img {
+                    width: 2000%;
+                    height: 100%
+                }
+
+                ;
+
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:560px) {
+    .sec2 {
+        .sect2 {
+            .towork {
+                .button-learn {
+                    margin-left: 8%;
+                }
+            }
+        }
+    }
+
+}

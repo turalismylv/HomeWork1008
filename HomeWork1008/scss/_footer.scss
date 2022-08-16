@@ -1,0 +1,308 @@
+footer {
+    padding-left: 20%;
+    padding-right: 20%;
+    background: #F5F5F5;
+    padding-top: 100px;
+
+    .pson {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 170%;
+        /* identical to box height, or 26px */
+
+
+        color: #888888;
+        padding-left: 39%;
+        margin-bottom: 26px;
+    }
+
+    .footer-div {
+
+        // height: 300px;
+        // border: 1px solid red;
+        border-bottom: 3px solid #DDDDDD;
+        display: flex;
+        justify-content: space-between;
+        
+        margin-bottom: 23px;
+
+
+        .div1 {
+            p {
+                width: 270px;
+                height: 66px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                /* or 24px */
+
+
+                color: #888888;
+
+                margin-top: 34px;
+                margin-bottom: 34px;
+
+            }
+
+            .media {
+                display: flex;
+                gap: 23px;
+            }
+        }
+
+        .div2 {
+
+            h3 {
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 150%;
+                /* identical to box height, or 33px */
+
+
+                color: #000000;
+                margin-bottom: 36px;
+                margin-top: 6px;
+            }
+
+            p {
+                width: 216px;
+                height: 96px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 200%;
+                /* or 32px */
+
+
+                color: #888888;
+            }
+        }
+
+        .div3 {
+            h3 {
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 150%;
+                /* identical to box height, or 33px */
+
+
+                color: #000000;
+                margin-top: 6px;
+                margin-bottom: 36px;
+
+            }
+
+            p {
+                cursor: pointer;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 200%;
+                /* or 32px */
+
+
+                color: #888888;
+
+            }
+
+
+        }
+
+        .div4 {
+            h3 {
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 150%;
+                /* identical to box height, or 33px */
+
+
+                color: #000000;
+                margin-top: 6px;
+
+            }
+
+            p {
+                width: 156px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 200%;
+                /* or 32px */
+
+
+                color: #888888;
+
+            }
+
+            .p1 {
+                margin-top: 36px;
+
+            }
+
+            .p2 {
+                margin-bottom: 20px;
+            }
+        }
+
+        .contact {
+            background: #fff;
+            display: flex;
+            width: 100%;
+            text-align: center;
+            border-radius: 13px;
+            overflow: hidden;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.8);
+        }
+
+        .contact-us {
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+            width: 95%;
+            height: 46px;
+        }
+
+        .contact-us form {
+            display: flex;
+        }
+
+        .contact-us input {
+            font-family: Product Sans;
+            background: #ffff;
+            border: none;
+            padding: 15px 15px;
+            flex-grow: 2;
+            border-radius: 10px;
+            color: #000000;
+            height: 20px;
+        }
+
+        .contact-us input::-webkit-input-placeholder {
+            color: #cccc;
+            //   text-transform: uppercase;
+        }
+
+        .contact-us input:focus {
+            outline: none;
+        }
+
+        .contact-us .btn-submit {
+            cursor: pointer;
+            background: #f16214;
+            border: none;
+            padding: 8px 12px;
+            color: #ffffff;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            gap: 10px;
+            position: relative;
+            font-family: Product Sans;
+            font-weight: 500;
+            border: 1px solid transparent;
+            //   line-height: px;
+
+            span {
+                border-bottom: 2.3px solid #f6f5f5;
+                z-index: 1;
+                height: 6px;
+                width: 6px;
+                border-right: 2.3px solid#f3f0ee;
+                transform: rotate(-45deg);
+                position: absolute;
+                top: 15.8px;
+                left: 15px;
+            }
+
+
+        }
+
+        .contact-us .btn-submit:focus {
+            outline: none;
+        }
+
+    }
+}
+
+@media screen and (max-width:1560px) {
+    footer{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+}
+@media screen and (max-width:1020px) {
+    
+        footer{
+            .footer-div{
+                
+                gap: 140px;
+                flex-wrap: wrap;
+            }
+        }
+}
+
+@media screen and (max-width:715px) {
+    
+    footer{
+        .footer-div{
+            
+            gap: 100px;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media screen and (max-width:672px) {
+    
+    footer{
+        .footer-div{
+            
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media screen and (max-width:615px) {
+    
+    footer{
+        .footer-div{
+            
+            gap: 13px;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media screen and (max-width:575px) {
+    
+    footer{
+        .footer-div{
+            
+            flex-direction: column;
+            padding-left: 35%;
+
+            .contact{
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:950px) {
+    footer{
+        .pson{
+            padding-left: 30%;
+        }
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    footer{
+        .pson{
+            padding-left: 25%;
+        }
+    }
+    
+}

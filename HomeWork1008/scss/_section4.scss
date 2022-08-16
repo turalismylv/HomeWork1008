@@ -27,16 +27,15 @@
     }
 
     .foods {
-        padding:0 18%;
+        margin: 0 auto;
         margin-top: 59px;
-        
-        // height: 868px;
+        width: 70%;
         display: flex;
-        // justify-content: space-between;
-        gap: 30px;
-        
+        flex-direction: row;
         flex-wrap: wrap;
-        align-content: space-between;
+        justify-content: space-evenly;
+        text-align: center;
+        gap: 20px;
         
         .sandwich {
             width: 370px;
@@ -569,3 +568,30 @@
 
     }
 }
+
+@media screen and (max-width:1665px) {
+
+    .sec4{
+        .foods{
+           width: 90%;
+        }
+        .button-see{
+            //    margin-left: 40%;
+            margin: 0 auto;
+            margin-top: 60px;
+            }
+    } 
+    
+}
+
+// @media screen and (max-width:1100px) {
+
+//     .sec4{
+//         .button-see{
+//         //    margin-left: 40%;
+//         margin: 0 auto;
+//         margin-top: 60px;
+//         }
+//     } 
+    
+// }

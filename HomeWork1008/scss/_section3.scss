@@ -135,3 +135,45 @@
 
     }
 }
+
+@media screen and (max-width:1300px) {
+
+
+    .choose{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width:890px) {
+
+
+    .choose{
+       flex-direction: column;
+       padding-left: 25%;
+       padding-right: 25%;
+
+       .quality{
+        .qua-p{
+            margin-bottom: 72px;
+        }
+       } 
+
+       .delivry{
+        .del-p{
+            margin-bottom: 72px;
+        }
+       } 
+
+    }
+}
+
+
+@media screen and (max-width:690px) {
+
+
+    .choose{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

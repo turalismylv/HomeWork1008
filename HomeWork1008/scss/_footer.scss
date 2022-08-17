@@ -25,7 +25,7 @@ footer {
         justify-content: space-between;
         
         margin-bottom: 23px;
-
+        padding-bottom: 10%;
 
         .div1 {
             p {
@@ -238,7 +238,7 @@ footer {
         footer{
             .footer-div{
                 
-                gap: 140px;
+                gap: 147px;
                 flex-wrap: wrap;
             }
         }
@@ -280,7 +280,7 @@ footer {
         .footer-div{
             
             flex-direction: column;
-            padding-left: 35%;
+            padding-left: 27%;
 
             .contact{
                 width: 80%;
@@ -301,7 +301,7 @@ footer {
 @media screen and (max-width:700px) {
     footer{
         .pson{
-            padding-left: 25%;
+            padding-left: 19%;
         }
     }
     

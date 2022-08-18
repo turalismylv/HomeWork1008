@@ -4,7 +4,7 @@
     display: flex;
     // justify-content: space-between;
     align-items: center;
-    
+
     padding-left: 20%;
     padding-right: 375px;
     padding-top: 30px;
@@ -12,7 +12,7 @@
 
     .logo {
         padding-right: 9%;
-        
+
         padding-top: 5px;
     }
 
@@ -37,7 +37,7 @@
         }
 
         .navigation-items {
-            
+
             display: flex;
             list-style: none;
             gap: 29px;
@@ -49,39 +49,54 @@
             font-size: 16px;
             line-height: 19px;
             margin-right: 25px;
+
+            
         }
     }
 
 }
 
+.navigation-items li{
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.navigation-items li:hover{
+    border-bottom: 1px solid #F16214;
+    color: #F16214;
+    
+}
 @media screen and (max-width: 1840px) {
-    .navigation{
+    .navigation {
         padding-left: 10%;
     }
 
 }
+
 @media screen and (max-width: 1640px) {
-    .navigation{
+    .navigation {
         padding-left: 26%;
     }
 
 }
+
 @media screen and (max-width: 1550px) {
-    .navigation{
+    .navigation {
         flex-direction: column;
         text-align: center;
     }
 
 }
+
 @media screen and (max-width: 1230px) {
-    .navigation .nav-actions{
+    .navigation .nav-actions {
         display: none;
     }
 
 }
+
 @media screen and (max-width: 530px) {
-    .navigation{
-        padding-left:18%;
+    .navigation {
+        padding-left: 18%;
     }
 
 

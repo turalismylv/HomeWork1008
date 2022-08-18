@@ -37,6 +37,16 @@
   margin-right: 25px;
 }
 
+.navigation-items li {
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.navigation-items li:hover {
+  border-bottom: 1px solid #F16214;
+  color: #F16214;
+}
+
 @media screen and (max-width: 1840px) {
   .navigation {
     padding-left: 10%;
@@ -93,6 +103,8 @@
   width: 170px;
   height: 50px;
   position: relative;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
 }
 .section1 .button-arrow .get {
   position: absolute;
@@ -101,7 +113,7 @@
   left: 19px;
   top: 13px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: #FFFFFF;
@@ -112,6 +124,25 @@
   height: 40px;
   left: 125px;
   top: 5px;
+}
+.section1 .button-arrow:hover {
+  transform: translateY(-15px);
+}
+.section1 .button-arrow::after {
+  background-color: #F16214;
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s ease-in;
+}
+.section1 .button-arrow:hover::after {
+  transform: scaleX(1.5) scaleY(1.6);
+  opacity: 0;
 }
 .section1 .sosial-media {
   margin-top: 40px;
@@ -124,7 +155,6 @@
   box-shadow: 0px 22px 52px rgba(0, 0, 0, 0.07);
   border-radius: 60px 0px;
   display: flex;
-  align-items: center;
   padding-left: 10%;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -230,6 +260,7 @@
   }
   .section1 .button-arrow {
     margin-left: 36%;
+    z-index: 2;
   }
   .section1 .sosial-media {
     padding-left: 32%;
@@ -258,88 +289,40 @@
     background-image: url(../images/birincii.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 72%;
+    width: 115%;
+    height: 80%;
     z-index: 1;
     opacity: 0.25;
     filter: blur(10px);
   }
 }
-@media screen and (max-width: 1063px) {
+@media screen and (max-width: 880px) {
   .section1::after {
     content: "";
     position: absolute;
     top: 0px;
-    left: -15%;
+    left: -46%;
     background-image: url(../images/birincii.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 67%;
+    width: 146%;
+    height: 82%;
     z-index: 1;
     opacity: 0.25;
     filter: blur(10px);
   }
 }
-@media screen and (max-width: 990px) {
-  .section1::after {
-    content: "";
-    position: absolute;
-    top: 101px;
-    left: -15%;
-    background-image: url(../images/birincii.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 55%;
-    z-index: 1;
-    opacity: 0.25;
-    filter: blur(10px);
-  }
-}
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 615px) {
   .section1::after {
     content: "";
     position: absolute;
     top: 0px;
-    left: -15%;
+    left: -54%;
     background-image: url(../images/birincii.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 72%;
-    z-index: 1;
-    opacity: 0.25;
-    filter: blur(10px);
-  }
-}
-@media screen and (max-width: 720px) {
-  .section1::after {
-    content: "";
-    position: absolute;
-    top: 0px;
-    left: -15%;
-    background-image: url(../images/birincii.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 72%;
-    z-index: 1;
-    opacity: 0.25;
-    filter: blur(10px);
-  }
-}
-@media screen and (max-width: 690px) {
-  .section1::after {
-    content: "";
-    position: absolute;
-    top: 0px;
-    left: -75%;
-    background-image: url(../images/birincii.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 171%;
-    height: 72%;
+    width: 151%;
+    height: 73%;
     z-index: 1;
     opacity: 0.25;
     filter: blur(10px);
@@ -347,7 +330,7 @@
 }
 @media screen and (max-width: 1150px) {
   .section1 h1 {
-    font-size: 65px;
+    font-size: 55px;
   }
 }
 @media screen and (max-width: 545px) {
@@ -376,6 +359,7 @@
   .section1 .info {
     flex-direction: column;
     padding-left: 0;
+    align-items: center;
   }
   .section1 .info .worktime {
     margin-right: 0;
@@ -509,7 +493,7 @@
 }
 @media screen and (max-width: 770px) {
   .sec2 .sect2 .bckgrndd img {
-    width: 2060%;
+    width: 2050%;
     height: 100%;
   }
 }
@@ -577,6 +561,9 @@
   margin: 0 26px;
   margin-top: 22px;
 }
+.choose .quality:hover {
+  box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.1);
+}
 .choose .healty {
   border: 2px solid #EEEEEE;
   border-radius: 60px 0px;
@@ -604,6 +591,9 @@
   margin-top: 22px;
   margin-bottom: 72px;
 }
+.choose .healty:hover {
+  box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.1);
+}
 .choose .delivry {
   border: 2px solid #EEEEEE;
   border-radius: 60px 0px;
@@ -629,6 +619,10 @@
   color: #888888;
   margin: 0 26px;
   margin-top: 22px;
+}
+
+.delivry:hover {
+  box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 1300px) {
@@ -1580,6 +1574,10 @@
   .sec7 .hamburinfo p {
     color: wheat;
   }
+  .sec7 .hamburinfo .mail {
+    position: relative;
+    z-index: 1;
+  }
   .sec7 .hamburinfo::before {
     content: "";
     position: absolute;
@@ -1613,6 +1611,11 @@
 @media screen and (max-width: 595px) {
   .sec7 {
     padding-left: 5%;
+  }
+}
+@media screen and (max-width: 505px) {
+  .sec7 .hamburinfo {
+    padding-top: 130px;
   }
 }
 footer {
@@ -1839,6 +1842,16 @@ footer .footer-div .contact-us .btn-submit:focus {
   font-family: "Product Sans";
 }
 
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-8rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 .main-container {
   width: 100%;
   color: #272042;
@@ -1851,11 +1864,22 @@ footer .footer-div .contact-us .btn-submit:focus {
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 0%;
+  animation: moveInLeft 1s linear;
 }
 
 @media screen and (max-width: 1640px) {
   .main-container .secccc {
     background-image: none;
     position: relative;
+  }
+}
+@media screen and (max-width: 413px) {
+  .wrapper {
+    padding-left: 2%;
+  }
+}
+@media screen and (max-width: 361px) {
+  .wrapper {
+    padding-left: 5%;
   }
 }

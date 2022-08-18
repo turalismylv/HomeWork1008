@@ -23,6 +23,24 @@
 
 }
 
+// @keyframes moveInUp {
+//     0% {
+//       opacity: 0;
+//       transform: translateY(5rem); }
+//     100% {
+//     //   opacity: 1;
+//       transform: translateY(-1rem); } }
+
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-8rem); }
+    // 80% {
+    //   transform: translateX(1rem); }
+    100% {
+      opacity: 1;
+      transform: translateX(0); } }
+
 
 .main-container {
     width: 100%;
@@ -39,6 +57,7 @@
         background-repeat: no-repeat;
         background-position-x: 100%;
         background-position-y: 0%;
+        animation: moveInLeft 1s linear;
         // z-index: 1;
         // opacity: 0.35;
         // filter: blur(3px);
@@ -68,4 +87,17 @@
     //     filter: blur(3px);
 
     // }
+}
+
+@media screen and (max-width:413px) {
+    .wrapper{
+        padding-left: 2%;
+    }
+    
+}
+@media screen and (max-width:361px) {
+    .wrapper{
+        padding-left: 5%;
+    }
+    
 }

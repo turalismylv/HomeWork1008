@@ -66,7 +66,12 @@
         }
 
     }
+   
 
+    .quality:hover{
+        box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.1);
+       
+    }
     .healty {
         
         border: 2px solid #EEEEEE;
@@ -99,6 +104,11 @@
             margin-bottom: 72px;
         }
 
+    }
+
+    .healty:hover{
+        box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.1);
+        
     }
 
     .delivry {
@@ -135,6 +145,13 @@
 
     }
 }
+
+.delivry:hover{
+    box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.1);
+        
+}
+
+
 
 @media screen and (max-width:1300px) {
 

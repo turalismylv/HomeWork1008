@@ -132,7 +132,13 @@
             p{
              color:wheat ;
             }
+
+            .mail{
+                position: relative;
+                z-index: 1;
+            }
         }
+
         .hamburinfo::before{
             content: "";
                     position: absolute;
@@ -172,6 +178,14 @@
 @media screen and (max-width:595px) {
     .sec7{
         padding-left: 5%;
+    }
+    
+}
+
+@media screen and (max-width:505px) {
+
+    .sec7 .hamburinfo{
+        padding-top: 130px;
     }
     
 }

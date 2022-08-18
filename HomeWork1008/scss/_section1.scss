@@ -32,7 +32,8 @@
         width: 170px;
         height: 50px;
         position: relative;
-
+        cursor: pointer;
+        transition: all 0.4s ease-in;
 
         .get {
             position: absolute;
@@ -41,7 +42,7 @@
             left: 19px;
             top: 13px;
             font-style: normal;
-            font-weight: 700;
+            font-weight: 500;
             font-size: 16px;
             line-height: 150%;
             color: #FFFFFF;
@@ -55,6 +56,28 @@
             top: 5px;
         }
 
+    }
+    .button-arrow:hover{
+        transform: translateY(-15px);
+    }
+
+    .button-arrow::after{
+        background-color: #F16214;
+        content: "";
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all 0.4s ease-in;
+    }
+    .button-arrow:hover::after {
+     
+        transform: scaleX(1.5) scaleY(1.6);
+        opacity: 0;
+        
     }
 
     .sosial-media {
@@ -74,7 +97,7 @@
         box-shadow: 0px 22px 52px rgba(0, 0, 0, 0.07);
         border-radius: 60px 0px;
         display: flex;
-        align-items: center;
+        
 
         padding-left: 10%;
         padding-top: 60px;
@@ -226,6 +249,7 @@
          }
          .button-arrow{
             margin-left: 36%;
+            z-index: 2;
          }
          .sosial-media{
             padding-left: 32%;
@@ -257,99 +281,101 @@
         background-image: url(../images/birincii.png);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
-        height: 72%;
+        width: 115%;
+        height: 80%;
         z-index: 1;
         opacity: 0.25;
         filter: blur(10px);
     }
 
 }
-@media screen and (max-width: 1063px) {
-    .section1::after{
-        content: "";
-        position: absolute;
-        top: 0px;
-        left:-15%;
-        background-image: url(../images/birincii.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 67%;
-        z-index: 1;
-        opacity: 0.25;
-        filter: blur(10px);
-    }
+// @media screen and (max-width: 1063px) {
+//     .section1::after{
+//         content: "";
+//         position: absolute;
+//         top: 0px;
+//         left:-15%;
+//         background-image: url(../images/birincii.png);
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//         width: 100%;
+//         height: 67%;
+//         z-index: 1;
+//         opacity: 0.25;
+//         filter: blur(10px);
+//     }
 
-}
-@media screen and (max-width: 990px) {
-    .section1::after{
-        content: "";
-        position: absolute;
-        top:101px;
-        left:-15%;
-        background-image: url(../images/birincii.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 55%;
-        z-index: 1;
-        opacity: 0.25;
-        filter: blur(10px);
-    }
+// }
+// @media screen and (max-width: 990px) {
+//     .section1::after{
+//         content: "";
+//         position: absolute;
+//         top:101px;
+//         left:-15%;
+//         background-image: url(../images/birincii.png);
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//         width: 100%;
+//         height: 55%;
+//         z-index: 1;
+//         opacity: 0.25;
+//         filter: blur(10px);
+//     }
 
-}
-@media screen and (max-width:900px) {
+// }
+@media screen and (max-width:880px) {
     .section1::after {
         content: "";
         position: absolute;
         top: 0px;
-        left: -15%;
+        left: -46%;
         background-image: url(../images/birincii.png);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
-        height: 72%;
+        width: 146%;
+        height: 82%;
         z-index: 1;
         opacity: 0.25;
         filter: blur(10px);
     }
 }
-@media screen and (max-width:720px) {
+@media screen and (max-width:615px) {
     .section1::after {
         content: "";
         position: absolute;
         top: 0px;
-        left: -15%;
+        left: -54%;
         background-image: url(../images/birincii.png);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
-        height: 72%;
+        width: 151%;
+        height: 73%;
         z-index: 1;
         opacity: 0.25;
         filter: blur(10px);
     }
 }
-@media screen and (max-width:690px) {
-    .section1::after {
-        content: "";
-        position: absolute;
-        top: 0px;
-        left: -75%;
-        background-image: url(../images/birincii.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 171%;
-        height: 72%;
-        z-index: 1;
-        opacity: 0.25;
-        filter: blur(10px);
-    }
-}
+// @media screen and (max-width:690px) {
+//     .section1::after {
+//         content: "";
+//         position: absolute;
+//         top: 0px;
+//         left: -75%;
+//         background-image: url(../images/birincii.png);
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//         width: 171%;
+//         height: 72%;
+//         z-index: 1;
+//         opacity: 0.25;
+//         filter: blur(10px);
+//     }
+   
+
+// }
 @media screen and (max-width: 1150px) {
     .section1 h1{
-        font-size: 65px;
+        font-size: 55px;
     }
 //    .section1 .button-arrow{
 //         margin-left: 30%;
@@ -387,62 +413,7 @@
     }
     
 }
-// @media screen and (max-width: 1840px) {
-//     .section1 {
-//         padding-left: 10%;
 
-//         .info {
-//             margin-left: 0;
-//             margin-right: -19%;
-//             padding-left: 15%;
-//         }
-//     }
-
-// }
-
-// @media screen and (max-width: 1700px) {
-//     .section1 {
-
-//         .info {
-//             margin-left: 0%;
-//             margin-right: -20%;
-
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 1350px) {
-//     .section1 {
-
-//         .info {
-//             margin-left: 0%;
-//             margin-right: -31%;
-
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 1170px) {
-//     .section1 {
-
-//         .info {
-//             margin-left: 0%;
-//             margin-right: -40%;
-
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 990px) {
-//     .section1 {
-
-//         .info {
-//             margin-left: 0%;
-//             margin-right: -60%;
-
-//         }
-//     }
-// }
 
 @media screen and (max-width: 887px) {
     .section1 {
@@ -450,7 +421,7 @@
         .info {
             flex-direction: column;
             padding-left: 0;
-
+            align-items: center;
             .worktime {
                 margin-right: 0;
                 margin-bottom: 30px;
@@ -475,135 +446,3 @@
     }
 }
 
-// @media screen and (max-width: 920px) {
-//     .section1 {
-
-//         .info {
-//             margin-right: -74%;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 800px) {
-//     .section1 {
-
-//         .info {
-//             margin-right: -90%;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 775px) {
-//     .section1 {
-
-//         .info {
-//             margin-right: -100%;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 740px) {
-//     .section1 {
-
-//         .info {
-
-//             margin-left: 30%;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 670px) {
-//     .section1 {
-
-//         .info {
-
-//             margin-left: 40%;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 640px) {
-//     .section1 {
-
-//         .info {
-
-//             margin-left: 50%;
-//             margin-right: -140%;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 620px) {
-//     .section1 {
-
-//         .info {
-
-//             margin-left: 60%;
-//             margin-right: -150%;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 600px) {
-//     .section1 {
-
-//         .info {
-
-//             margin-left: -20%;
-//             margin-right: -230%;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 570px) {
-//     .section1 {
-
-//         .info {
-
-//             margin-left: -25%;
-//             margin-right: -250%;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 540px) {
-//     .section1 {
-
-//         .info {
-
-//             margin-left: 40%;
-//             margin-right: -330%;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 515px) {
-//     .section1 {
-
-//         .info {
-
-//             margin-left: 50%;
-//             margin-right: -450%;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 500px) {
-//     .section1 {
-
-//         .info {
-
-//             margin-left: 50%;
-//             margin-right: -500%;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 1100px) {
-//     .section1 {
-
-//         .info {
-//             margin-left: 45%;
-//         }
-//     }
-// }

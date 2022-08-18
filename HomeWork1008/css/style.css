@@ -148,6 +148,15 @@
   margin-top: 40px;
   display: flex;
   gap: 23px;
+  z-index: 3;
+}
+.section1 .sosial-media .img {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+}
+.section1 .sosial-media .img:hover {
+  transform: translateY(-15px);
 }
 .section1 .info {
   margin-top: 110px;
@@ -423,6 +432,8 @@
   width: 160px;
   height: 50px;
   position: relative;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
 }
 .sec2 .sect2 .towork .button-learn .lear {
   position: absolute;
@@ -431,7 +442,7 @@
   left: 19px;
   top: 13px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: #FFFFFF;
@@ -442,6 +453,25 @@
   height: 40px;
   left: 115px;
   top: 5px;
+}
+.sec2 .sect2 .towork .button-learn:hover {
+  transform: translateY(-15px);
+}
+.sec2 .sect2 .towork .button-learn::after {
+  background-color: #F16214;
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s ease-in;
+}
+.sec2 .sect2 .towork .button-learn:hover::after {
+  transform: scaleX(1.5) scaleY(1.6);
+  opacity: 0;
 }
 
 @media screen and (max-width: 1530px) {
@@ -1089,6 +1119,8 @@
   position: relative;
   margin-left: 43%;
   margin-bottom: 100px;
+  transition: all 0.4s ease-in;
+  cursor: pointer;
 }
 .sec4 .button-see .get1 {
   position: absolute;
@@ -1097,7 +1129,7 @@
   left: 12px;
   top: 13px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: #FFFFFF;
@@ -1110,6 +1142,28 @@
   top: 5px;
 }
 
+.button-see:hover {
+  transform: translateY(-15px);
+}
+
+.button-see::after {
+  background-color: #F16214;
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s ease-in;
+}
+
+.button-see:hover::after {
+  transform: scaleX(1.5) scaleY(1.6);
+  opacity: 0;
+}
+
 @media screen and (max-width: 1665px) {
   .sec4 .foods {
     width: 90%;
@@ -1119,6 +1173,30 @@
     margin-top: 60px;
   }
 }
+.foods .sandwich:hover {
+  box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.5);
+}
+
+.foods .ench:hover {
+  box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.5);
+}
+
+.foods .beans:hover {
+  box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.5);
+}
+
+.foods .pizza:hover {
+  box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.5);
+}
+
+.foods .potpie:hover {
+  box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.5);
+}
+
+.foods .salad:hover {
+  box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.5);
+}
+
 .sec5 {
   margin: 0 auto;
 }
@@ -1156,6 +1234,10 @@
 }
 .sec5 .sec5info .sec5div .andr {
   margin-right: 15px;
+  cursor: pointer;
+}
+.sec5 .sec5info .sec5div .iphone {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1800px) {
@@ -1421,7 +1503,6 @@
   align-items: center;
 }
 .sec6 .sec6div .esas .left .arrow .aright .sola {
-  padding-top: 5px;
   padding-left: 13px;
   padding-right: 13px;
 }
@@ -1544,6 +1625,7 @@
   line-height: 150%;
   /* identical to box height, or 24px */
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1640px) {
@@ -1881,5 +1963,125 @@ footer .footer-div .contact-us .btn-submit:focus {
 @media screen and (max-width: 361px) {
   .wrapper {
     padding-left: 5%;
+  }
+}
+#menuToggle {
+  display: none;
+  position: relative;
+  top: 30px;
+  left: 46px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 86%;
+}
+
+#menuToggle a {
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover {
+  color: tomato;
+}
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu {
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  background-color: rgb(249, 119, 6);
+}
+
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul {
+  transform: none;
+}
+
+@media screen and (max-width: 1230px) {
+  .secccc .navi #menuToggle {
+    display: block;
   }
 }

@@ -56,6 +56,8 @@
                 width: 160px;
                 height: 50px;
                 position: relative;
+                cursor: pointer;
+                transition: all 0.4s ease-in;
 
 
                 .lear {
@@ -65,7 +67,7 @@
                     left: 19px;
                     top: 13px;
                     font-style: normal;
-                    font-weight: 700;
+                    font-weight: 500;
                     font-size: 16px;
                     line-height: 150%;
                     color: #FFFFFF;
@@ -79,6 +81,29 @@
                     top: 5px;
                 }
 
+            }
+
+            .button-learn:hover{
+                transform: translateY(-15px);
+            }
+        
+            .button-learn::after{
+                background-color: #F16214;
+                content: "";
+                height: 100%;
+                width: 100%;
+                border-radius: 10rem;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                transition: all 0.4s ease-in;
+            }
+            .button-learn:hover::after {
+             
+                transform: scaleX(1.5) scaleY(1.6);
+                opacity: 0;
+                
             }
 
 

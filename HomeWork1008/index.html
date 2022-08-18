@@ -14,6 +14,38 @@
     <div class="wrapper">
         <div class="main-container">
             <section class="secccc">
+                <nav role="navigation" class="navi">
+                    <div id="menuToggle">
+                      <!--
+                      A fake / hidden checkbox is used as click reciever,
+                      so you can use the :checked selector on it.
+                      -->
+                      <input type="checkbox" />
+                      
+                      <!--
+                      Some spans to act as a hamburger.
+                      
+                      They are acting like a real hamburger,
+                      not that McDonalds stuff.
+                      -->
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      
+                      <!--
+                      Too bad the menu has to be inside of the button
+                      but hey, it's pure CSS magic.
+                      -->
+                      <ul id="menu">
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>How to work</li></a>
+                        <a href="#"><li>Services</li></a>
+                        <a href="#"><li>Product</li></a>
+                        <a href="#" target="_blank"><li>Contact</li></a>
+                        <a href="#"><li>Register</li></a>
+                      </ul>
+                    </div>
+                  </nav>
                 <nav class="navigation">
                     <div class="logo">
                         <img src="./images/logo.png" alt="logo">
@@ -45,10 +77,10 @@
                         <img class="arrow-img" src="./images/boyukdur.png" alt="s">
                     </div>
                     <div class="sosial-media">
-                        <img src="./images/fb.png" alt="">
-                        <img src="./images/inst.png" alt="">
-                        <img src="./images/twit.png" alt="">
-                        <img src="./images/linked.png" alt="">
+                        <img class="img" src="./images/fb.png" alt="">
+                        <img class="img" src="./images/inst.png" alt="">
+                        <img class="img" src="./images/twit.png" alt="">
+                        <img class="img" src="./images/linked.png" alt="">
                     </div>
                     <div class="info">
                         <div class="worktime">

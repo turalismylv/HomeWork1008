@@ -229,6 +229,23 @@
     .sec6{
         .sec6div{
            background-image: none;
+           position: relative;
+        }
+
+        .sec6div::after{
+            content: "";
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    background-image:url(../images/vegetable-food-diet-health-eating-vegetables-and-fork-2eaceb13dbe391d6ddd9e988c59d4f22.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 34%;
+                    height: 58%;
+                    z-index: 1;
+                    opacity: 0.35;
+                    filter: blur(3px);
+
         }
     }
     
